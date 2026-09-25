@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya | Neo-Brutalism</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Menggunakan font monospace dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>HALO, SAYA <br><span class="highlight-yellow">DEVELOPER</span></h1>
+            <p>Saya membangun website fungsional dengan antarmuka yang berani, brutal, dan tidak membosankan.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+                <a href="https://github.com/username-kamu" target="_blank" class="btn btn-secondary">GitHub</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="box-image">👨‍💻</div>
+        </div>
+    </header>
+
+    <section id="projects" class="projects">
+        <h2>PROYEK TERBARU</h2>
+        <div class="project-grid">
+            <div class="project-card bg-blue">
+                <h3>E-Commerce App</h3>
+                <p>Platform belanja online dengan fitur keranjang dan pembayaran dinamis.</p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                </div>
+                <a href="#" class="btn btn-small">Demo</a>
+            </div>
+            
+            <div class="project-card bg-orange">
+                <h3>Sistem Manajemen</h3>
+                <p>Dashboard admin untuk memantau data penjualan secara real-time.</p>
+                <div class="tags">
+                    <span>React</span>
+                    <span>Node.js</span>
+                </div>
+                <a href="#" class="btn btn-small">Demo</a>
+            </div>
+
+            <div class="project-card bg-purple">
+                <h3>Blog Pribadi</h3>
+                <p>Sistem manajemen konten sederhana untuk menulis dan menerbitkan artikel.</p>
+                <div class="tags">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                </div>
+                <a href="#" class="btn btn-small">Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container bg-yellow">
+            <h2>MARI BERDISKUSI</h2>
+            <form id="contact-form">
+                <div class="input-group">
+                    <label for="name">NAMA</label>
+                    <input type="text" id="name" required placeholder="Masukkan nama Anda">
+                </div>
+                <div class="input-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" required placeholder="Masukkan email Anda">
+                </div>
+                <div class="input-group">
+                    <label for="message">PESAN</label>
+                    <textarea id="message" rows="5" required placeholder="Tulis pesan Anda di sini..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">KIRIM PESAN</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Dibuat dengan ai dan gaya Brutal.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
